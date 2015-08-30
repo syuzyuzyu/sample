@@ -1,5 +1,5 @@
 class Eratos
-  def go(x)
+  def get(x)
     tansaku = (2..x).to_a
     sosu = []
     heihou = Math.sqrt(x).floor
@@ -15,4 +15,4 @@ class Eratos
 end
 
 a = Eratos.new()
-a.go(5)
+a.get(100)
